@@ -45,6 +45,16 @@ a.navbar-item.has-text-black:hover {
     color: #3273dc !important
 }
 
+blue {
+    color: #3273dc !important
+}
+
+a.blue:hover {
+    color: black !important
+}
+
+
 a.button.title.is-info.is-rounded.is-inverted.is-outlined.is-small:hover {
     color: #3273dc !important
 }
+
