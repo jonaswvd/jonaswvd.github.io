@@ -8,6 +8,7 @@
         <title>Kontakt Prudence Davis Holistisk Coach</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <script defer src="form.js"></script>
         <link rel="stylesheet" href="styles/grid.css">
         <link rel="stylesheet" href="styles/helpers.css">
 
@@ -20,9 +21,7 @@
                 background: url(images/sBio.jpg) center / cover;
                 height: 100vh;
             }
-            html{
-                overflow-y: hidden 
-            }
+
         </style>
         <!-- style used for background -->
 
@@ -90,6 +89,78 @@
         </div>
         <!-- background div -->
 
+
+        <!-- My story -->
+        <section class="section">
+            <!-- Make sure left and right coluns are vertically and centrally aligned, this is done on the highest level class -->
+            <div class="columns is-centered is-vcentered"> 
+        
+                <!-- Form column -->
+                <div class="column is-one-third">
+                    <!-- Form -->
+                    <div class="field">
+                        <label class="label">Navn</label>
+                        <div class="control has-icons-left">
+                            <input class="input" type="text" placeholder="Indtast dit fulde navn" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left">
+                            <input class="input" type="email" placeholder="eksempel@mail.dk" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <div class="field">
+                        <label class="label">Besked</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Indtast besked i dette felt" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="control">
+                        <button class="button is-rounded is-link">Send</button>
+                    </div>
+                    <!-- Form -->
+                </div>
+                <!-- Form column -->
+
+                <!-- Empty space -->
+                <div class="column is-narrow">
+                </div>
+                <!-- Empty space -->
+
+                <!-- Picture -->
+                <div class="column center">
+                    <figure class="image">
+                        <img class="is-rounded is-2by3" src="images/sTr%C3%A6ningsfilosofi.jpg">
+                    </figure>
+                </div>
+                <!-- Picture -->
+
+
+            </div>
+            <!-- Outer columns -->
+        </section>
+        <!-- My story -->
+
+        <!-- footer section -->
+        <footer class="footer ">
+            <div class="content has-text-centered">
+                <p>
+                    Persistence by <strong><a class="blue" style=active:  href="index.html">Prudence</a></strong>. Copyright 2019. 
+                </p>
+            </div>
+        </footer>
+        <!-- footer section -->
 
 
     </body>

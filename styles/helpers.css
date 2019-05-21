@@ -58,3 +58,9 @@ a.button.title.is-info.is-rounded.is-inverted.is-outlined.is-small:hover {
     color: #3273dc !important
 }
 
+.email-field:valid {
+  border-color: grey;
+}
+.email-field:invalid {
+  border-color: red;
+}
