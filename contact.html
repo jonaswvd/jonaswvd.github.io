@@ -21,7 +21,7 @@
                 background: url(images/sBio.jpg) center / cover;
                 height: 100vh;
             }
-            
+
         </style>
         <!-- style used for background -->
 
@@ -91,44 +91,49 @@
 
 
         <!-- My story -->
+
         <section class="section">
             <!-- Make sure left and right coluns are vertically and centrally aligned, this is done on the highest level class -->
+
+
             <div class="columns is-centered is-vcentered"> 
-        
+
                 <!-- Form column -->
                 <div class="column is-one-third">
                     <!-- Form -->
-                    <div class="field">
-                        <label class="label">Navn</label>
-                        <div class="control has-icons-left">
-                            <input class="input" type="text" placeholder="Indtast dit fulde navn" required>
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-user"></i>
-                            </span>
+                    <form class="control" name="input" method="post" action="https://formspree.io/email@prudencedavis.dk">
+                        <div class="field">
+                            <label class="label">Navn</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="text" name="Name" placeholder="Indtast dit fulde navn" required>
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="field">
-                        <label class="label">Email</label>
-                        <div class="control has-icons-left">
-                            <input class="input" type="email" placeholder="eksempel@mail.dk" required>
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-envelope"></i>
-                            </span>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="email" name="_replyto" placeholder="eksempel@mail.dk" required>
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
                         </div>
-                    </div>
 
 
-                    <div class="field">
-                        <label class="label">Besked</label>
+                        <div class="field">
+                            <label class="label">Besked</label>
+                            <div class="control">
+                                <textarea class="textarea" name="message" placeholder="Indtast besked i dette felt" required></textarea>
+                            </div>
+                        </div>
+
                         <div class="control">
-                            <textarea class="textarea" placeholder="Indtast besked i dette felt" required></textarea>
+                            <button class="button is-rounded is-link" type="submit" value="Send">Send</button>
                         </div>
-                    </div>
-
-                    <div class="control">
-                        <button class="button is-rounded is-link">Send</button>
-                    </div>
+                    </form>
                     <!-- Form -->
                 </div>
                 <!-- Form column -->
@@ -149,8 +154,10 @@
 
             </div>
             <!-- Outer columns -->
+
         </section>
         <!-- My story -->
+
 
         <!-- footer section -->
         <footer class="footer ">
