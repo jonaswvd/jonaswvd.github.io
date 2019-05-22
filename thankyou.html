@@ -5,12 +5,18 @@
         <link rel="stylesheet" href="normalize.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Kontakt Prudence Davis Holistisk Coach</title>
+        <title>Tak for din besked via prudencedavis.dk</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
         <script defer src="form.js"></script>
         <link rel="stylesheet" href="styles/grid.css">
         <link rel="stylesheet" href="styles/helpers.css">
+
+        <script>
+            function scrollWin() {
+                window.scrollTo(0, 750);
+            }
+        </script>
 
         <!--                <link rel="stylesheet" href="styles/debug.css">-->
 
@@ -21,7 +27,6 @@
                 background: url(images/sBio.jpg) center / cover;
                 height: 100vh;
             }
-
         </style>
         <!-- style used for background -->
 
@@ -31,7 +36,7 @@
 
 
     <!-- body -->
-    <body>
+    <body onload="scrollWin();">
 
         <!-- background div -->
         <div class="back">
@@ -100,43 +105,11 @@
 
                 <!-- Form column -->
                 <div class="column is-one-third">
-                    <!-- Form -->
-                    <form class="control" name="input" method="post" action="https://formspree.io/email@prudencedavis.dk">
-                        <div class="field">
-                            <label class="label">Navn</label>
-                            <div class="control has-icons-left">
-                                <input class="input" type="text" name="Name" placeholder="Indtast dit fulde navn" required>
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-user"></i>
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control has-icons-left">
-                                <input class="input" type="email" name="_replyto" placeholder="eksempel@mail.dk" required>
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
-                                </span>
-                            </div>
-                        </div>
-
-
-                        <div class="field">
-                            <label class="label">Besked</label>
-                            <div class="control">
-                                <textarea class="textarea" name="message" placeholder="Indtast besked i dette felt" required></textarea>
-                            </div>
-                        </div>
-
-                        <div class="control">
-                            <button class="button is-rounded is-link" type="submit" value="Send">Send</button>
-                            <input type="hidden" name="_subject" value="Kontakt via prudencedavis.dk">
-                            <input type="hidden" name="_next" value="thankyou.html">
-                        </div>
-                    </form>
-                    <!-- Form -->
+                    <div class="content">
+                        <p class="subtitle is-uppercase center">
+                            Tak for din besked.
+                        </p>
+                    </div>
                 </div>
                 <!-- Form column -->
 
