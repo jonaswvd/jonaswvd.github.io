@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://prudencedavis.dk</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://prudencedavis.dk/about</loc>
+    </url>
+    <url>
+        <loc>https://prudencedavis.dk/approach</loc>
+    </url>
+    <url>
+        <loc>https://prudencedavis.dk/contact</loc>
+    </url>    
+</urlset> 
